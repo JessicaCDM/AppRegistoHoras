@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RegistoHora.MainPage">
+
+    <Grid>
+        <StackLayout>
+            <StackLayout Padding="80" VerticalOptions="Start" HorizontalOptions="Center">
+                <Label Text="Registo de Horas" TextColor="Black" FontSize="Title" FontAttributes="Bold"/>
+            </StackLayout>
+
+            <StackLayout VerticalOptions="Center">
+                <Frame BackgroundColor="Transparent" Margin="20">
+                    <StackLayout>
+                        <Label Text="Email: " TextColor="Black" FontSize="Body" HorizontalOptions="Start"/>
+                        <Entry x:Name="user" Keyboard="Email" ReturnType="Next" ClearButtonVisibility="WhileEditing"/>
+                        <Label Text="Senha: " TextColor="Black" FontSize="Body" HorizontalOptions="Start"/>
+                        <Entry x:Name="password" Keyboard="Numeric" ReturnType="Done" IsPassword="True" ClearButtonVisibility="WhileEditing"/>
+                    </StackLayout>
+                </Frame>
+                <Button x:Name="login" Text="Login" BackgroundColor="Black" TextColor="White" CornerRadius="10" Margin="35, 0, 35, 0" Clicked="Login"/>
+                <Button x:Name="create" Text="Fazer Registo" BackgroundColor="Black" TextColor="White" CornerRadius="10" Margin="35, 0, 35, 0" Clicked="Registo"/>
+            </StackLayout>
+        </StackLayout>
+        <BoxView x:Name="standbyScreen" Color="Black" Opacity="0.5" IsVisible="false"/>
+        <ActivityIndicator x:Name="wheel" Color="White" IsVisible="false" IsRunning="False" Scale="0.2" />
+    </Grid>
+    
+
+</ContentPage>

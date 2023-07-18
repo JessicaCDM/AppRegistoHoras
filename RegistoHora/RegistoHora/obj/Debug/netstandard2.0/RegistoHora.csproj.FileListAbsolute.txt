@@ -1,0 +1,16 @@
+D:\5421\RegistoHora\RegistoHora\RegistoHora\bin\Debug\netstandard2.0\RegistoHora.deps.json
+D:\5421\RegistoHora\RegistoHora\RegistoHora\bin\Debug\netstandard2.0\RegistoHora.dll
+D:\5421\RegistoHora\RegistoHora\RegistoHora\bin\Debug\netstandard2.0\RegistoHora.pdb
+D:\5421\RegistoHora\RegistoHora\RegistoHora\obj\Debug\netstandard2.0\RegistoHora.csproj.AssemblyReference.cache
+D:\5421\RegistoHora\RegistoHora\RegistoHora\obj\Debug\netstandard2.0\RegistoHora.GeneratedMSBuildEditorConfig.editorconfig
+D:\5421\RegistoHora\RegistoHora\RegistoHora\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\5421\RegistoHora\RegistoHora\RegistoHora\obj\Debug\netstandard2.0\RegistoHora.AssemblyInfoInputs.cache
+D:\5421\RegistoHora\RegistoHora\RegistoHora\obj\Debug\netstandard2.0\RegistoHora.AssemblyInfo.cs
+D:\5421\RegistoHora\RegistoHora\RegistoHora\obj\Debug\netstandard2.0\RegistoHora.csproj.CoreCompileInputs.cache
+D:\5421\RegistoHora\RegistoHora\RegistoHora\obj\Debug\netstandard2.0\XamlC.stamp
+D:\5421\RegistoHora\RegistoHora\RegistoHora\obj\Debug\netstandard2.0\RegistoHora.dll
+D:\5421\RegistoHora\RegistoHora\RegistoHora\obj\Debug\netstandard2.0\refint\RegistoHora.dll
+D:\5421\RegistoHora\RegistoHora\RegistoHora\obj\Debug\netstandard2.0\RegistoHora.pdb
+D:\5421\RegistoHora\RegistoHora\RegistoHora\obj\Debug\netstandard2.0\ref\RegistoHora.dll
+D:\5421\RegistoHora\RegistoHora\RegistoHora\obj\Debug\netstandard2.0\Paginas\Registo.xaml.g.cs
+D:\5421\RegistoHora\RegistoHora\RegistoHora\obj\Debug\netstandard2.0\Paginas\MainPage.xaml.g.cs

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RegistoHora.Paginas.Registo">
+    <ContentPage.Content>
+        <Grid>
+            <StackLayout>
+                <StackLayout Padding="40" VerticalOptions="Start" HorizontalOptions="Center">
+                    <Label Text="Criar Registo" TextColor="Black" FontSize="Title" FontAttributes="Bold"/>
+                </StackLayout>
+
+                <StackLayout VerticalOptions="Center">
+                    <Frame BackgroundColor="Transparent" Margin="20">
+                        <StackLayout>
+                            <Label Text="Nome: " TextColor="Black" FontSize="Body" HorizontalOptions="Start"/>
+                            <Entry x:Name="nome" Keyboard="Text" ReturnType="Next" ClearButtonVisibility="WhileEditing"/>
+                            <Label Text="Empresa: " TextColor="Black" FontSize="Body" HorizontalOptions="Start"/>
+                            <Entry x:Name="empresa" Keyboard="Default" ReturnType="Next" ClearButtonVisibility="WhileEditing"/>
+                            <Label Text="Nº Funcionário: " TextColor="Black" FontSize="Body" HorizontalOptions="Start"/>
+                            <Entry x:Name="nFuncionario" Keyboard="Numeric" ReturnType="Next" ClearButtonVisibility="WhileEditing"/>
+                            <Label Text="Email: " TextColor="Black" FontSize="Body" HorizontalOptions="Start"/>
+                            <Entry x:Name="email" Keyboard="Email" ReturnType="Next" ClearButtonVisibility="WhileEditing"/>
+                            <Label Text="Password: " TextColor="Black" FontSize="Body" HorizontalOptions="Start"/>
+                            <Entry x:Name="password" Keyboard="Numeric" ReturnType="Next" IsPassword="True" ClearButtonVisibility="WhileEditing"/>
+                            <Label Text="Confirmar Password: " TextColor="Black" FontSize="Body" HorizontalOptions="Start"/>
+                            <Entry x:Name="confirmPassword" Keyboard="Numeric" ReturnType="Done" IsPassword="True" ClearButtonVisibility="WhileEditing"/>
+                        </StackLayout>
+                    </Frame>
+                    <Button x:Name="Register" Text="Registar" BackgroundColor="Black" TextColor="White" CornerRadius="10" Margin="35, 0, 35, 0" Clicked="Registar_Clicked"/>
+                    <Button x:Name="Cancel" Text="Cancelar" BackgroundColor="Black" TextColor="White" CornerRadius="10" Margin="35, 0, 35, 0" Clicked="Voltar_Clicked"/>
+                </StackLayout>
+            </StackLayout>
+            <BoxView x:Name="standbyScreen" Color="Black" Opacity="0.5" IsVisible="false"/>
+            <ActivityIndicator x:Name="wheel" Color="White" IsVisible="false" IsRunning="False" Scale="0.2" />
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
