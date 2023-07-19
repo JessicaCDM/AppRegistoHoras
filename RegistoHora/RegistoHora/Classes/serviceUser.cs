@@ -22,7 +22,7 @@ namespace RegistoHora.Classes
 
             try
             {
-                if (consult.ToString() == "")
+                if (consult == null)
                 {
                     await User.Child("Users")
                     .PostAsync(new Users()
@@ -45,13 +45,46 @@ namespace RegistoHora.Classes
 
         public async Task<bool> CheckLogin(string email, int password)
         { 
-            var concult = (await User.Child("Users")
+            var consult = (await User.Child("Users")
                 .OnceAsync<Users>())
                 .Where(u => u.Object.Email == email)
                 .Where(u => u.Object.Password == password)
                 .FirstOrDefault();
 
-            return concult != null;
+            return consult != null;
+        }
+
+        public async Task<List<Users>> GetAll()
+        {
+            try
+            {
+                var userlist = (await User.Child("Users")
+                    .OnceAsync<Users>())
+                    .Select(item => new Users
+                    {
+                        Email = item.Object.Email,
+                        Password = item.Object.Password,
+                        Company = item.Object.Company,
+                        UserName = item.Object.UserName,
+                        NumerEmployee = item.Object.NumerEmployee
+                    }).ToList();
+                return userlist;
+            }
+            catch { return null; }
+        }
+
+        public async Task<Users> GetUser(string email)
+        {
+            try
+            {
+                var model = await GetAll();
+
+                await User.Child("Users")
+                    .OnceAsync<Users>();
+
+                return model.Where(x => x.Email == email).FirstOrDefault();
+            }
+            catch { return null; }
         }
     }
 }

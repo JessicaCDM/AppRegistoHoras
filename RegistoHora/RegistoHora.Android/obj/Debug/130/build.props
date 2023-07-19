@@ -25,11 +25,11 @@ androidgeneratejnimarshalmethods=false
 os=windows_nt
 androidincludedebugsymbols=true
 androidpackagenamingpolicy=lowercasecrc64
-_nugetassetstimestamp=638253142339956735
+_nugetassetstimestamp=638253805890491263
 typemapkind=strings-asm
 androidsupportedabis=arm64-v8a
 armeabi-v7a
 x86
 x86_64
 androidmanifestplaceholders=
-projectfullpath=d:\5421\registohora\registohora\registohora.android\registohora.android.csproj
+projectfullpath=d:\5421\registohora\appregistohoras\registohora\registohora.android\registohora.android.csproj

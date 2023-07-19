@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EdzbE9ex2sLw2Df3fyE02KXqlXtyNAeRupvlSJ0azz4/ElTeQLDaTYo9giQ/iJJDvHv33Av13N8AMiqHXJUyoA==",
+  "dgSpecHash": "HdT3DWqHOiMycll3DUABqaxo3mFiP7dET8Ynu6RCGv01EGjCRE13DIOThMHpufK4UVCRR3WNvct1JjOB7cZNPQ==",
   "success": true,
-  "projectFilePath": "D:\\5421\\RegistoHora\\RegistoHora\\RegistoHora\\RegistoHora.csproj",
+  "projectFilePath": "D:\\5421\\RegistoHora\\AppRegistoHoras\\RegistoHora\\RegistoHora\\RegistoHora.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jes_s\\.nuget\\packages\\firebasedatabase.net\\4.2.0\\firebasedatabase.net.4.2.0.nupkg.sha512",
     "C:\\Users\\jes_s\\.nuget\\packages\\litedb\\4.1.4\\litedb.4.1.4.nupkg.sha512",

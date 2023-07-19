@@ -27,7 +27,6 @@
                         </StackLayout>
                     </Frame>
                     <Button x:Name="Register" Text="Registar" BackgroundColor="Black" TextColor="White" CornerRadius="10" Margin="35, 0, 35, 0" Clicked="Registar_Clicked"/>
-                    <Button x:Name="Cancel" Text="Cancelar" BackgroundColor="Black" TextColor="White" CornerRadius="10" Margin="35, 0, 35, 0" Clicked="Voltar_Clicked"/>
                 </StackLayout>
             </StackLayout>
             <BoxView x:Name="standbyScreen" Color="Black" Opacity="0.5" IsVisible="false"/>

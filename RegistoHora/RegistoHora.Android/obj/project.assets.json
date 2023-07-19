@@ -3783,11 +3783,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\5421\\RegistoHora\\RegistoHora\\RegistoHora.Android\\RegistoHora.Android.csproj",
+      "projectUniqueName": "D:\\5421\\RegistoHora\\AppRegistoHoras\\RegistoHora\\RegistoHora.Android\\RegistoHora.Android.csproj",
       "projectName": "RegistoHora.Android",
-      "projectPath": "D:\\5421\\RegistoHora\\RegistoHora\\RegistoHora.Android\\RegistoHora.Android.csproj",
+      "projectPath": "D:\\5421\\RegistoHora\\AppRegistoHoras\\RegistoHora\\RegistoHora.Android\\RegistoHora.Android.csproj",
       "packagesPath": "C:\\Users\\jes_s\\.nuget\\packages\\",
-      "outputPath": "D:\\5421\\RegistoHora\\RegistoHora\\RegistoHora.Android\\obj\\",
+      "outputPath": "D:\\5421\\RegistoHora\\AppRegistoHoras\\RegistoHora\\RegistoHora.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -3808,8 +3808,8 @@
       "frameworks": {
         "monoandroid13.0": {
           "projectReferences": {
-            "D:\\5421\\RegistoHora\\RegistoHora\\RegistoHora\\RegistoHora.csproj": {
-              "projectPath": "D:\\5421\\RegistoHora\\RegistoHora\\RegistoHora\\RegistoHora.csproj"
+            "D:\\5421\\RegistoHora\\AppRegistoHoras\\RegistoHora\\RegistoHora\\RegistoHora.csproj": {
+              "projectPath": "D:\\5421\\RegistoHora\\AppRegistoHoras\\RegistoHora\\RegistoHora\\RegistoHora.csproj"
             }
           }
         }

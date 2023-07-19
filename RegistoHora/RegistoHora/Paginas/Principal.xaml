@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             NavigationPage.HasBackButton="False"
+             x:Class="RegistoHora.Paginas.Principal">
+
+    <StackLayout>
+        <StackLayout HorizontalOptions="Center" WidthRequest="320">
+            <Label x:Name="nome" TextColor="White" BackgroundColor="Black" HorizontalTextAlignment="Center" FontSize="Small" FontAttributes="Bold"/>
+        </StackLayout>
+        <StackLayout Padding="0, 80">
+            <Button x:Name="NovoRegisto" Text="Novo Registo" BackgroundColor="Black" TextColor="White" CornerRadius="10" Margin="35, 0, 35, 0"/>
+            <Button x:Name="ConsultarRegisto" Text="Consultar Registo" BackgroundColor="Black" TextColor="White" CornerRadius="10" Margin="35, 0, 35, 0"/>
+        </StackLayout>
+        
+    </StackLayout>
+    
+</ContentPage>

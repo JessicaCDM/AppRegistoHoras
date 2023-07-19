@@ -1717,11 +1717,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\5421\\RegistoHora\\RegistoHora\\RegistoHora.iOS\\RegistoHora.iOS.csproj",
+      "projectUniqueName": "D:\\5421\\RegistoHora\\AppRegistoHoras\\RegistoHora\\RegistoHora.iOS\\RegistoHora.iOS.csproj",
       "projectName": "RegistoHora.iOS",
-      "projectPath": "D:\\5421\\RegistoHora\\RegistoHora\\RegistoHora.iOS\\RegistoHora.iOS.csproj",
+      "projectPath": "D:\\5421\\RegistoHora\\AppRegistoHoras\\RegistoHora\\RegistoHora.iOS\\RegistoHora.iOS.csproj",
       "packagesPath": "C:\\Users\\jes_s\\.nuget\\packages\\",
-      "outputPath": "D:\\5421\\RegistoHora\\RegistoHora\\RegistoHora.iOS\\obj\\",
+      "outputPath": "D:\\5421\\RegistoHora\\AppRegistoHoras\\RegistoHora\\RegistoHora.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1742,8 +1742,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "D:\\5421\\RegistoHora\\RegistoHora\\RegistoHora\\RegistoHora.csproj": {
-              "projectPath": "D:\\5421\\RegistoHora\\RegistoHora\\RegistoHora\\RegistoHora.csproj"
+            "D:\\5421\\RegistoHora\\AppRegistoHoras\\RegistoHora\\RegistoHora\\RegistoHora.csproj": {
+              "projectPath": "D:\\5421\\RegistoHora\\AppRegistoHoras\\RegistoHora\\RegistoHora\\RegistoHora.csproj"
             }
           }
         }
