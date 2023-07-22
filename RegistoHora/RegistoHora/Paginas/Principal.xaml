@@ -7,9 +7,10 @@
     <StackLayout>
         <StackLayout HorizontalOptions="Center" WidthRequest="320">
             <Label x:Name="nome" TextColor="White" BackgroundColor="Black" HorizontalTextAlignment="Center" FontSize="Small" FontAttributes="Bold"/>
+            <Label x:Name="emailUser" IsVisible="false" />
         </StackLayout>
         <StackLayout Padding="0, 80">
-            <Button x:Name="NovoRegisto" Text="Novo Registo" BackgroundColor="Black" TextColor="White" CornerRadius="10" Margin="35, 0, 35, 0"/>
+            <Button x:Name="NovoRegisto" Text="Novo Registo" BackgroundColor="Black" TextColor="White" CornerRadius="10" Margin="35, 0, 35, 0" Clicked="RegistoHoras"/>
             <Button x:Name="ConsultarRegisto" Text="Consultar Registo" BackgroundColor="Black" TextColor="White" CornerRadius="10" Margin="35, 0, 35, 0"/>
         </StackLayout>
         

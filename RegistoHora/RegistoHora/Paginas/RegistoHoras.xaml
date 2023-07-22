@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RegistoHora.Paginas.RegistoHoras">
+    <Grid>
+        <StackLayout>
+            <StackLayout Padding="40" VerticalOptions="Start" HorizontalOptions="Center">
+                <Label Text="Inserir Registo" TextColor="Black" FontSize="Title" FontAttributes="Bold"/>
+                <Label x:Name="emailUser" IsVisible="False" />
+            </StackLayout>
+            <StackLayout VerticalOptions="Center">
+                <Frame BackgroundColor="Transparent" Margin="20">
+                    <StackLayout>
+                        <Label Text="Data: " TextColor="Black" FontSize="Body" HorizontalOptions="Start"/>
+                        <DatePicker x:Name="date" />
+                        <Label Text="Hora: " TextColor="Black" FontSize="Body" HorizontalOptions="Start"/>
+                        <TimePicker x:Name="hora" />
+                    </StackLayout>
+                </Frame>
+                <Button x:Name="Entrada" Text="Entrada" BackgroundColor="Black" TextColor="White" CornerRadius="10" Margin="35, 0, 35, 0" Clicked="Entrada_Clicked"/>
+                <Button x:Name="Saida" Text="Saída" BackgroundColor="Black" TextColor="White" CornerRadius="10" Margin="35, 0, 35, 0" Clicked="Saida_Clicked"/>
+                <Frame BackgroundColor="Transparent" Margin="20, 50">
+                    <StackLayout>
+                        <Label Text="Observação: " TextColor="Black" FontSize="Body" HorizontalOptions="Start"/>
+                        <Editor x:Name="campoObservacao" HeightRequest="50" Placeholder="Digite sua observação aqui"/>
+                        <Button x:Name="Salvar" Text="Salvar" BackgroundColor="Black" TextColor="White" CornerRadius="10" Margin="35, 0, 35, 0" Clicked="Salvar_Clicked"/>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </StackLayout>
+    </Grid>
+</ContentPage>

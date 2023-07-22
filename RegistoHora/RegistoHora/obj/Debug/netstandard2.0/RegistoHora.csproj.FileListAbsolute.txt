@@ -31,3 +31,4 @@ D:\5421\RegistoHora\AppRegistoHoras\RegistoHora\RegistoHora\obj\Debug\netstandar
 D:\5421\RegistoHora\AppRegistoHoras\RegistoHora\RegistoHora\obj\Debug\netstandard2.0\RegistoHora.pdb
 D:\5421\RegistoHora\AppRegistoHoras\RegistoHora\RegistoHora\obj\Debug\netstandard2.0\ref\RegistoHora.dll
 D:\5421\RegistoHora\AppRegistoHoras\RegistoHora\RegistoHora\obj\Debug\netstandard2.0\Paginas\Principal.xaml.g.cs
+D:\5421\RegistoHora\AppRegistoHoras\RegistoHora\RegistoHora\obj\Debug\netstandard2.0\Paginas\RegistoHoras.xaml.g.cs

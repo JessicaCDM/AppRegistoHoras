@@ -30,7 +30,13 @@ namespace RegistoHora.Paginas
             if (model != null)
             {
                 nome.Text = "Bem vindo, " + model.UserName;
+                emailUser.Text = model.Email;
             }
+        }
+
+        private void RegistoHoras(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new RegistoHoras(emailUser.Text));
         }
     }
 }

@@ -5,6 +5,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Xamarin.Essentials;
+using Xamarin.Forms;
 
 namespace RegistoHora.Classes
 {
@@ -85,6 +87,62 @@ namespace RegistoHora.Classes
                 return model.Where(x => x.Email == email).FirstOrDefault();
             }
             catch { return null; }
+        }
+
+        public async Task<bool> RegitarHoras(string email, DatePicker date, TimePicker hora, string status)
+        {
+            var consult = await GetUser(email);
+     
+            try
+            {
+                if (consult != null)
+                {
+                    DateTime dateTime = date.Date + hora.Time;
+
+                    await User.Child("Horas")
+                        .PostAsync(new Horas()
+                        {
+                            Status = status,
+                            Email= email,
+                            Date = dateTime.ToString("yyyy-MM-dd"),
+                            Hora = dateTime.ToString("hh:mm"),
+                        });
+                    return true;
+                }
+                return false;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
+        public async Task<bool> SalvarObservacao(string email, DatePicker date, string observacao, string status)
+        {
+            var consult = await GetUser(email);
+
+            try
+            {
+                if(consult != null)
+                {
+                    DateTime dateTime = date.Date;
+
+                    await User.Child("Horas")
+                        .PostAsync(new Horas()
+                        {
+                            Email = email,
+                            Date = dateTime.ToString("yyyy-MM-dd"),
+                            Observacao = observacao,
+                            Status = status
+                        });
+                    return true;
+                }
+                return false;
+            }
+            catch
+            {
+                return false;
+            }
         }
     }
 }
